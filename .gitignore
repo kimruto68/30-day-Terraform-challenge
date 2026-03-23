@@ -1,0 +1,17 @@
+# Local .terraform directory
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore variables file containing secrets
+*.tfvars
+*.tfvars.json
+
+# Ignore credentials
+.aws/
